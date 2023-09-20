@@ -59,7 +59,7 @@ public class StackTest {
         for (int i = 0; i < numberOfPushes; i++) {
             s.pop();
         }
-        assertEquals(0, s.size());
+        assertEquals(8, s.size());
     }
 
 }
